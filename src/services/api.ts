@@ -1,7 +1,7 @@
 import axios, { AxiosInstance, AxiosResponse, AxiosError } from 'axios';
 import toast from 'react-hot-toast';
 
-const BASE_URL = 'https://7cvccltb-3100.inc1.devtunnels.ms/api';
+const BASE_URL = 'https://api.mahasamvit.com/api';
 
 // Error message extraction utility
 const extractErrorMessage = (error: AxiosError): string => {
